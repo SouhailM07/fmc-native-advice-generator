@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
@@ -31,16 +29,9 @@
       [
         "expo-font",
         {
-          "fonts": [
-            "./fonts/manrope/static/Manrope-ExtraBold.ttf"
-          ]
+          "fonts": ["./fonts/manrope/static/Manrope-ExtraBold.ttf"]
         }
       ]
-    ],
-    "extra": {
-      "eas": {
-        "projectId": "c8a889a2-282f-482a-8d09-dc1ad9b51ffc"
-      }
-    }
+    ]
   }
 }
